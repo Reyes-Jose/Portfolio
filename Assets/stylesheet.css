@@ -1,0 +1,110 @@
+*{
+    background-color: #0f0e17;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+.header1 img{
+    border-radius: 40%;
+}
+.header1 img{
+    display:block;
+    margin-left: 5%;    
+    margin-top: 2%;
+    height: 300px;
+    width: 300px;
+    border: 5px solid #ff8906;
+}
+
+img{
+    max-width: 100%;
+}
+
+.name1{
+    color:white;
+    font-size: 30px;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding: 40px 200px 10px 150px;
+}
+
+
+nav ol li{
+    list-style-type: none;
+    display:inline-block;
+    padding:10px, 20px;
+}
+
+nav ol li a{
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin:20px;
+}
+
+nav ol li a:hover{
+    color:#ff8906;
+}
+
+
+.section1 p{
+    text-align: center;
+    margin:70px;
+    padding:210px;
+    float: right;
+    width:70%;
+    color:white;
+    font-size:30px;
+}
+
+section img{
+    float:right;
+    width: 50%;
+    margin: -100px 250px; 
+    border-radius: 20px;
+    outline-style: solid;
+    color:black;
+}
+
+section img:hover{
+    box-shadow: 0 0 10px 10px #ff8906;
+}
+
+aside ol li{
+    position:static;
+    left:0;
+    top:0;
+    width: 440px;
+    height: 100%;
+    background: #171522;
+    text-align: center;
+    line-height: 500px;
+    color:white;
+    font-size: 40px;
+}
+
+aside ol{    
+    border-width: 10px;
+    border-style:solid;
+}
+
+.contact1{
+    display: flex;
+    justify-content: space-between;
+    float:right;
+    width:400px;
+    margin-top:-250px;
+    margin-right: 30%;
+}
+.contact1 a{
+    text-decoration: none;
+    color:white;
+}
+.contact1 a:hover{
+    color:#ff8906;
+}
