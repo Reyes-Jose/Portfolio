@@ -52,6 +52,21 @@ nav ol li a:hover{
 }
 
 
+
+
+.imageproject{
+    float:right;
+    width: 50%;
+    margin: -266px 250px; 
+    border-radius: 25px 20px 30px;
+    outline-style: solid;
+    color:black;
+}
+
+section img:hover{
+    box-shadow: 0 0 10px 10px #ff8906;
+}
+
 .section1 p{
     text-align: center;
     margin:70px;
@@ -62,18 +77,15 @@ nav ol li a:hover{
     font-size:30px;
 }
 
-section img{
+.project1{
     float:right;
-    width: 50%;
-    margin: -100px 250px; 
+    width: 20%;
+    margin: 250px; 
     border-radius: 20px;
     outline-style: solid;
     color:black;
 }
 
-section img:hover{
-    box-shadow: 0 0 10px 10px #ff8906;
-}
 
 aside ol li{
     position:static;
@@ -107,4 +119,8 @@ aside ol{
 }
 .contact1 a:hover{
     color:#ff8906;
+}
+
+img{
+    border-radius: 20px;
 }
