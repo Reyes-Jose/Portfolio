@@ -86,6 +86,15 @@ section img:hover{
     color:black;
 }
 
+.project2{
+    float:right;
+    width: 22%;
+    margin: 250px -102px; 
+    border-radius: 20px;
+    outline-style: solid;
+    color:black;
+}
+
 
 aside ol li{
     position:static;
